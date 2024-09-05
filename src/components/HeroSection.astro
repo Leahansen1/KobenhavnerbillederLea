@@ -3,19 +3,25 @@ import Button from "./Button.astro";
 ---
 
 <section class="xl:grid grid-cols-5">
-  <img src="https://picsum.photos/800/600" alt="" class="col-span-3" />
+  <img
+    src="/public/kobenhavnerbilleder-sten-simons.jpg"
+    alt=""
+    class="col-span-3"
+  />
   <div class="col-span-2 grid content-center">
-    <h1>Københavnerbilleder - en guide til hipster foto af Sten Simons</h1>
-    <p>
+    <h1 class="font-bold text-4xl py-3 px-4">
+      Københavnerbilleder - en guide til hipster foto af Sten Simons
+    </h1>
+    <p class="text-lg mx-auto py-3 px-4">
       Billede af bogen: Kan være “kobenhavnerbilleder-sten-simon.jpg” eller
       billeder fra bogen - der er frit valg, så længe  det skaber stemning.
     </p>
     <Button variant="primary" size="small">Tryk på mig</Button>
   </div>
 </section>
-<section class="xl:grid grid-cols-2">
-  <div>
-    <h2>Kort om bogen</h2>
+<section class="py-6 mx-10 xl:grid grid-cols-2">
+  <div class="py-3 prose">
+    <h2 class="text-3xl font-bold">Kort om bogen</h2>
     <p>
       Københavnerbilleder er de danske streetfotografers bibel: Det er en fusion
       mellem et kunstværk og en lærebog. Bogen gennemgår alle væsentlige
@@ -24,8 +30,8 @@ import Button from "./Button.astro";
       læselyst!
     </p>
   </div>
-  <div>
-    <h2>Stamdata for bogen</h2>
+  <div class="prose">
+    <h2 class="text-3xl font-bold mx-10">Stamdata for bogen</h2>
     <ul>
       <li>Titel: Københavnerbilleder - en guide til hipster foto</li>
       <li>Forfatter: Sten Simons</li>
