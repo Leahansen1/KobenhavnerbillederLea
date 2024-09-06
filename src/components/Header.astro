@@ -13,11 +13,11 @@ import Link from "../components/Link.astro";
     <nav id="desktopmenu" class="hidden lg:block">
       <ul class="flex flex-row gap-4">
         <li class="">
-          <Link href="#">Københavnerbilleder</Link>
-        </li><!-- alternativt: lav et <a href="">Link</a>, hvis du ikke vil bruge Link.astro komponenten -->
-        <li class=""><Link href="#">Bogens indhold</Link></li>
-        <li class=""><Link href="#">Forfatteren</Link></li>
-        <li class=""><Link href="#">Køb nu</Link></li>
+          <Link href="#kobenhavnerbilleder">Københavnerbilleder</Link>
+        </li>
+        <li class=""><Link href="#bogens_kapitler">Bogens indhold</Link></li>
+        <li class=""><Link href="#forfatteren">Forfatteren</Link></li>
+        <li class=""><Link href="#kob_nu">Køb nu</Link></li>
       </ul>
     </nav>
     <button id="burgermenu" class="lg:hidden" x-on:click="showmenu = ! showmenu"
