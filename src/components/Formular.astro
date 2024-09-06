@@ -3,8 +3,8 @@ import Button from "../components/Button.astro";
 ---
 
 <section class="grid grid-cols-2">
-  <form class="grid grid-cols-1 gap-4 px-8 max-w-md">
-    <p class="text-3xl font-bold">Køb bogen</p>
+  <form class="pt-10 pb-8 grid grid-cols-1 gap-4 px-8 max-w-md">
+    <p class="text-4xl font-bold py-3">Køb bogen</p>
 
     <div class="block">
       <label for="antal">Antal:</label>
@@ -22,8 +22,7 @@ import Button from "../components/Button.astro";
         class="bg-gray-100 rounded-md focus:border-gray-500 focus:bg-white focus:ring-0 hover:bg-gray-200 text-gray-500"
       >
         <input type="radio" id="postnord" name="levering" />
-        <label for="
-        postnord" checked="checked">Postnord</label>
+        <label for="postnord" checked="checked">Postnord</label>
         <input type="radio" id="afhent" name="levering" />
         <label for="afhent">Afhent selv</label>
       </div>
@@ -106,6 +105,6 @@ import Button from "../components/Button.astro";
   <img
     src="/public/kobenhavnerbilleder-sten-simons.jpg"
     alt=""
-    class="col-span-1"
+    class="col-span-1 pt-16"
   />
 </section>
